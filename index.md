@@ -1,37 +1,96 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/markvinh/markvinh.README.md/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE html>
+<html lang="en">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-### Markdown
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" href="/portfolio-responsive-complete-master/assets/img/MJ.ico">
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- =====Font Awesome== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portfolio</title>
+</head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav__logo">Mark Vin Hufancia </a>
+            </div>
 
-```markdown
-Syntax highlighted code block
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
 
-# Header 1
-## Header 2
-### Header 3
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
 
-- Bulleted
-- List
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
 
-1. Numbered
-2. List
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Mark vin</span><br> Grade 11 student</h1>
 
-**Bold** and _Italic_ and `Code` text
+                <a href="assets/resume/Update Resume.pdf Resume.pdf" class="button">Download Resume</a>
+            </div>
 
-[Link](url) and ![Image](src)
-```
+            <div class="home__social">
+                <a https://www.facebook.com/profile.php?id=100009101450761 a>
+     	    </div>
+	</section>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
 
-### Jekyll Themes
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/.jpg" alt="">
+                </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/markvinh/markvinh.README.md/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+                <div>
+                    <h2 class="about__subtitle">I'am Mark Vin R. Hufancia</h2>
+                    <p class="about__text">I'm Mark Vin R. Hufancia, they call me Mkvin. Grade 11 student pursuing my dream as ML player! </p>
+                </div>
+            </div>
+        </section>
 
-### Support or Contact
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact Me</h2>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <!--  <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>-->
+                    <input type="button" value="Click Here!" class="contact__button button" onclick="location.href=https://drive.google.com/file/d/1oCcwzyVbWbJDN7G0mKNaVcz705JQ8Ffx/view?usp=sharing">
+
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
